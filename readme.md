@@ -14,7 +14,6 @@ This can be overriden with arguments -c to specify a credfile, and -p for a prof
 
 --metadata is a neat flag that tries to get credentials from the metadata endpoint. It allows you to use the AWS console as an EC2 instance.
 
-
 ```bash
 python3 consoleSession.py -c "path/to/credentials/file" -p "profile"
 ```
