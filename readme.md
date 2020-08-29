@@ -31,6 +31,14 @@ or
 python3 consoleSession.py --metadata
 ```
 
+Then you'll have an AWS console link that you can do whatever you please with. Copy paste it to your favourite browser, or invoke the browser from the command line
+
+```bash
+python3 consoleSession.py
+
+https://signin.aws.amazon.com/federation?Action=login&Issuer=Example.org&Destination=https%3A%2F%2Fconsole.aws.amazon.com%2F&SigninToken=sadjhngjkhnasjdARanDomTokenThAtIsNotUseableSoDontBotherTryingTOUseitPleaseokayrightmkay
+```
+
 ## Dependencies
 
 see requirements.txt
